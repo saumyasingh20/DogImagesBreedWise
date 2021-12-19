@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "style.css"> 
+    <title>Dog Lovers</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1 class="text-center headings"> 
+        	Welcome to the world of Dog Lovers !!    
+    </h1>
+    <p style="font-size: 1.5rem;background-color: beige; font-family: Arial, Helvetica, sans-serif;padding: 3%;">
+        
+            Fetch Random Dog Images according to their breeds from the drop down menu below: 
+        
+    </p>
+    <div id = "form-container">
+        <form>
+            <select id ="dog-breeds">
+            </select>
+            <button type = "submit" id = "getDogImageBtn">
+                Get Dog Image
+            </button>
+        </form>
+    </div>
+    <div id = "flex-contents">
+        <div id="breed-image-container" class="flex-center">
+             <img id = "breed-image" src = "dogCartoonImage.jpeg">
+        </div>
+        <div id="next" class="flex-center">
+            <a href="">Next&ensp;>></a>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
